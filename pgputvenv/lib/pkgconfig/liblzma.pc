@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/cameronpresley/2023-ml-projects/pgp-ut-austin-projects/pgputvenv
+exec_prefix=/Users/cameronpresley/2023-ml-projects/pgp-ut-austin-projects/pgputvenv
+libdir=/Users/cameronpresley/2023-ml-projects/pgp-ut-austin-projects/pgputvenv/lib
+includedir=/Users/cameronpresley/2023-ml-projects/pgp-ut-austin-projects/pgputvenv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

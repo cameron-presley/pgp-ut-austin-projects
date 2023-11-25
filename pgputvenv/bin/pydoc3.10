@@ -1,0 +1,5 @@
+#!/Users/cameronpresley/2023-ml-projects/pgp-ut-austin-projects/pgputvenv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
